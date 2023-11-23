@@ -2,6 +2,7 @@
 {
     class BankManagerFactory
     {
+        
         // Creates a specific bank manager based on the given request type.
         // Parameters:
         //   - requestType: A string representing the type of bank manager to create.

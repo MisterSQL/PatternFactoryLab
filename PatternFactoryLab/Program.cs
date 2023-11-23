@@ -1,6 +1,9 @@
 ﻿using PatternFactoryLab;
 
+// Prompt the user to enter the type of question
 Console.Write("Enter the type of question (cards, deposits, loans): ");
+
+// Read the user's input and store it in the 'request' variable
 string request = Console.ReadLine();
 
 // Create an instance of the BankManagerFactory.
@@ -9,5 +12,4 @@ BankManagerFactory managerFactory = new BankManagerFactory();
 IBankManager manager = managerFactory.CreateManager(request);
 // Call the processClientRequest method on the created manager.
 manager.processСlientRequest();
-
 Console.ReadKey();
