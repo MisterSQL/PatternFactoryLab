@@ -16,7 +16,7 @@
         </tr>
         <tr>
             <td style="width: 50%;">Language<br></td>
-            <td style="width: 50%;">Ñ#<br></td>
+            <td style="width: 50%;">C#<br></td>
         </tr>
         <tr>
             <td style="width: 50%;">Database<br></td>
